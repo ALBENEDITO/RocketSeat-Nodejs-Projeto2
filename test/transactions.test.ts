@@ -80,7 +80,7 @@ describe('Transactions Routes', () => {
       }),
     )
   })
-  test('Teste de resumo', async () => {
+  test('Teste resumo', async () => {
     const createTransactionResponse = await request(app.server)
       .post('/transactions')
       .send({
